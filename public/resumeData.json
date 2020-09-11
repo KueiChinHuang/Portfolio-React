@@ -1,0 +1,143 @@
+{
+  "main": {
+    "name": "Kuei-Chin Huang",
+    "occupation": "Student @ Georgian College",
+    "description": "Full Stack React Developer",
+    "image": "quebec.jpg",
+    "bio": "My name is Kuei-Chin (Doris), I'm a Full Stack ReactJS Developer.",
+    "contactmessage": "Get in touch with me to receive further details.",
+    "email": "kuei-chin.huang@mygeorgian.ca",
+    "phone": "+1 (249) 877-1208",
+    "address": {
+      "street": "Rou Jean-Talon O",
+      "city": "Montreal",
+      "state": "QC",
+      "zip": "H4P 0B8"
+    },
+    "website": "https://doris-portfolio.netlify.app/",
+    "resumedownload": "https://doris-portfolio.netlify.app/",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/kuei-chin-huang/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/KueiChinHuang",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
+      {
+        "school": "Georgian College",
+        "degree": "Diploma in Computer Programmer",
+        "graduated": "Aug 2020",
+        "description": "Dean’s List (Fall 2018 – Summer 2020), Average 95%"
+      }, 
+      {
+        "school": "National Taipei University of Education ",
+        "degree": "Master in Social and Regional Development",
+        "graduated": "Jul 2017",
+        "description": ""
+      }
+    ],
+    "work": [
+      {
+        "company": "Bank of Montreal",
+        "title": "DevOps Analyst",
+        "years": "Jan 2020 - Apr 2020",
+        "description": "Automated the process of generating a Portfolio Pipeline Report by coding M language in Power BI and imported data from JIRA APIs and SharePoint web link. These techniques improved work efficiency with a 70% reduction in time required to generate reports across multiple teams. "
+      },
+      {
+        "company": "Bank of Montreal",
+        "title": "Data Loss Prevention Analyst",
+        "years": "May 2019 - Aug 2019",
+        "description": "Demonstrated exceptional programming skills by developing Macro and VBA scripts that reduced the time required to generate Data Loss Prevention (DLP) Service Level Agreement (SLA) metrics reports by 70%."
+      },
+      {
+        "company": "Canada Learning Code",
+        "title": "Mentor",
+        "years": "Jan 2019 - Present",
+        "description": "Helping people to learn programming."
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "75%"
+      },{
+        "name": "ASP.NET",
+        "level": "65%"
+      },
+      {
+        "name": "JAVA",
+        "level": "60%"
+      },
+      {
+        "name": "HTML5",
+        "level": "90%"
+      },
+       {
+        "name": "CSS",
+        "level": "80%"
+      },{
+        "name": "MongoDB",
+        "level": "70%"
+      },
+      {
+        "name": "Git",
+        "level": "85%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "MERN Stack WhatsApp Clone",
+        "category": "WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
+        "image": "whatsapp-mern.jpeg",
+        "url": "https://www.youtube.com/watch?v=gzdQDxzW2Tw"
+      },
+      {
+        "title": "MERN Stack TikTok Clone",
+        "category": "TikTok Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
+        "image": "tiktok-mern.jpeg",
+        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
+      },
+      {
+        "title": "Facebook Clone with React",
+        "category": "Facebook Clone built with ReactJS",
+        "image": "facebook-clone.png",
+        "url": "https://www.youtube.com/watch?v=B-kxUMHBxNo"
+      },
+      {
+        "title": "Airbnb Clone",
+        "category": "Facebook Clone built with ReactJS",
+        "image": "airbnb-clone.jpeg",
+        "url": "https://www.youtube.com/watch?v=BtJeH_-XYaA"
+      },
+      {
+        "title": "Netflix Clone",
+        "category": "Facebook Clone built with ReactJS",
+        "image": "netflix-clone.jpeg",
+        "url": "https://www.youtube.com/watch?v=XtMThy8QKqU&t=9358s"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user": "Kareem Abdul Jabbar"
+      },
+      {
+        "text": "That Sonny Sangha must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user": "Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
