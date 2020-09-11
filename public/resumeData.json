@@ -97,34 +97,16 @@
   "portfolio": {
     "projects": [
       {
-        "title": "MERN Stack WhatsApp Clone",
-        "category": "WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-        "image": "whatsapp-mern.jpeg",
-        "url": "https://www.youtube.com/watch?v=gzdQDxzW2Tw"
+        "title": "MERN Climbing Route Review",
+        "category": "An review app built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
+        "image": "route-review.PNG",
+        "url": "https://climbing-routes-review.herokuapp.com/"
       },
       {
-        "title": "MERN Stack TikTok Clone",
-        "category": "TikTok Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-        "image": "tiktok-mern.jpeg",
-        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
-      },
-      {
-        "title": "Facebook Clone with React",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "facebook-clone.png",
-        "url": "https://www.youtube.com/watch?v=B-kxUMHBxNo"
-      },
-      {
-        "title": "Airbnb Clone",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "airbnb-clone.jpeg",
-        "url": "https://www.youtube.com/watch?v=BtJeH_-XYaA"
-      },
-      {
-        "title": "Netflix Clone",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "netflix-clone.jpeg",
-        "url": "https://www.youtube.com/watch?v=XtMThy8QKqU&t=9358s"
+        "title": "Rock Climbing Gym Online Store",
+        "category": "E-Commerce website built with ASP.NET CORE",
+        "image": "climbing-store.PNG",
+        "url": "https://github.com/KueiChinHuang/Rock-Climbing-Gym-Online-Shop"
       }
     ]
   },
@@ -135,8 +117,8 @@
         "user": "Kareem Abdul Jabbar"
       },
       {
-        "text": "That Sonny Sangha must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user": "Steve Wozniak... impersonator"
+        "text": "Doris (Kuei-Chin) is one of the most hardworking students I have encountered during my studies at Georgian College. I can see her study and discuss with peers and teachers all the time. I think that's why she can get a very high academic record in the first year. She is also a good teammate for studying group. She is willing to share her knowledge with others and helping others. It is my honor to study with her.",
+        "user": "Kim Chang"
       }
     ]
   }
