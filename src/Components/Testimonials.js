@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
+
 class Testimonials extends Component {
   render() {
     if (this.props.data) {
@@ -9,14 +12,14 @@ class Testimonials extends Component {
         testimonials
       ) {
         return (
-          <SplideSlide>
-            <blockquote>
-              <p>{testimonials.text}</p>
-              <cite>
-                <a href={testimonials.website}>{testimonials.user}</a>
-              </cite>
-            </blockquote>
-          </SplideSlide>
+          //  <SplideSlide>
+          <blockquote>
+            <p>{testimonials.text}</p>
+            <cite>
+              <a href={testimonials.website}>{testimonials.user}</a>
+            </cite>
+          </blockquote>
+          //  </SplideSlide>
         );
       });
     }
@@ -32,7 +35,7 @@ class Testimonials extends Component {
             </div>
 
             <div className="ten columns flex-container">
-              <Splide
+              {/* <Splide
                 options={{
                   type: "loop",
                   autoplay: true,
@@ -40,7 +43,8 @@ class Testimonials extends Component {
                 }}
               >
                 {testimonials}
-              </Splide>
+              </Splide> */}
+              <Carousel autoPlay>{testimonials}</Carousel>
             </div>
           </div>
         </div>
