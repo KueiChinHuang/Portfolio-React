@@ -3,7 +3,7 @@
     "name": "Kuei-Chin Huang",
     "occupation": "Student @ Georgian College",
     "description": "Full Stack React Developer who is enthusiastic with new techonolgies",
-    "image": "quebec.jpg",
+    "image": "i2-min.jpg",
     "bio": "My name is Kuei-Chin (Doris), I'm a Full Stack ReactJS Developer.",
     "contactmessage": "Get in touch with me to receive further details.",
     "email": "kuei-chin.huang@mygeorgian.ca",
@@ -37,7 +37,7 @@
         "degree": "Diploma in Computer Programmer",
         "graduated": "Aug 2020",
         "description": "Dean’s List (Fall 2018 – Summer 2020), Average 95%"
-      }, 
+      },
       {
         "school": "National Taipei University of Education ",
         "degree": "Master in Social and Regional Development",
@@ -69,7 +69,8 @@
       {
         "name": "ReactJs",
         "level": "75%"
-      },{
+      },
+      {
         "name": "ASP.NET",
         "level": "65%"
       },
@@ -81,10 +82,11 @@
         "name": "HTML5",
         "level": "90%"
       },
-       {
+      {
         "name": "CSS",
         "level": "80%"
-      },{
+      },
+      {
         "name": "MongoDB",
         "level": "70%"
       },
@@ -99,13 +101,13 @@
       {
         "title": "MERN Climbing Route Review",
         "category": "An review app built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-        "image": "route-review.PNG",
+        "image": "route-review-min.PNG",
         "url": "https://climbing-routes-review.herokuapp.com/"
       },
       {
         "title": "Rock Climbing Gym Online Store",
         "category": "E-Commerce website built with ASP.NET CORE",
-        "image": "climbing-store.PNG",
+        "image": "climbing-store-min.PNG",
         "url": "https://github.com/KueiChinHuang/Rock-Climbing-Gym-Online-Shop"
       }
     ]
