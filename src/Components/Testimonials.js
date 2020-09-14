@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 
 class Testimonials extends Component {
   render() {
@@ -7,14 +9,14 @@ class Testimonials extends Component {
         testimonials
       ) {
         return (
-          <li key={testimonials.user}>
+          <SplideSlide>
             <blockquote>
               <p>{testimonials.text}</p>
               <cite>
                 <a href={testimonials.website}>{testimonials.user}</a>
               </cite>
             </blockquote>
-          </li>
+          </SplideSlide>
         );
       });
     }
@@ -30,7 +32,15 @@ class Testimonials extends Component {
             </div>
 
             <div className="ten columns flex-container">
-              <ul className="slides">{testimonials}</ul>
+              <Splide
+                options={{
+                  type: "loop",
+                  autoplay: true,
+                  gap: "1rem",
+                }}
+              >
+                {testimonials}
+              </Splide>
             </div>
           </div>
         </div>
