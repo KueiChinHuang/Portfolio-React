@@ -1,15 +1,15 @@
 import React, { useState } from "react";
+import { init } from "emailjs-com";
+init("user_sqyvKIz55KAZqujZ9LbHk");
 
 const Contact = ({ data }) => {
-  const [url, setUrl] = useState(
-    "mailto:test@example.com?subject=subject&body=body"
-  );
   const [name, setName] = useState("");
   const [subject, setSubject] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const handleSubmit = (event) => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
     const templateId = "template_portfolio";
 
     sendEmail(templateId, {
