@@ -10,17 +10,17 @@ const Contact = ({ data }) => {
   const [message, setMessage] = useState("");
 
   const handleSubmit = (event) => {
-    const templateId = "template_id";
+    const templateId = "template_portfolio";
 
-    this.sendFeedback(templateId, {
+    sendEmail(templateId, {
       subject,
       message_html: message,
       from_name: name,
-      reply_to: email,
+      from_email: email,
     });
   };
 
-  const sendFeedback = (templateId, variables) => {
+  const sendEmail = (templateId, variables) => {
     window.emailjs
       .send("gmail", templateId, variables)
       .then((res) => {
@@ -111,7 +111,7 @@ const Contact = ({ data }) => {
               </div>
 
               <div>
-                <button type="submit" onClick={handleClick} className="submit">
+                <button type="submit" onClick={handleSubmit} className="submit">
                   Submit
                 </button>
                 <span id="image-loader">
