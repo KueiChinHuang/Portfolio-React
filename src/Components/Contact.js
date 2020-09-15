@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import { init } from "emailjs-com";
-init("user_sqyvKIz55KAZqujZ9LbHk");
 
 const Contact = ({ data }) => {
   const [name, setName] = useState("");
@@ -11,20 +9,30 @@ const Contact = ({ data }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const templateId = "template_portfolio";
+    const userId = "user_sqyvKIz55KAZqujZ9LbHk"; // User Id from EmailJS
 
-    sendEmail(templateId, {
-      subject,
-      message_html: message,
-      from_name: name,
-      from_email: email,
-    });
+    sendEmail(
+      templateId,
+      {
+        subject: subject,
+        message: message,
+        from_name: name,
+        from_email: email,
+      },
+      userId
+    );
   };
 
-  const sendEmail = (templateId, variables) => {
+  const sendEmail = (templateId, variables, userId) => {
     window.emailjs
-      .send("gmail", templateId, variables)
+      .send("gmail", templateId, variables, userId)
       .then((res) => {
         console.log("Email successfully sent!");
+        setName("");
+        setSubject("");
+        setEmail("");
+        setMessage("");
+        alert("Message Sent! Thank you.");
       })
       // Handle errors here however you like, or use a React error boundary
       .catch((err) =>
