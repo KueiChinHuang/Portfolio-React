@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = ({ data }) => {
   const [name, setName] = useState("");
@@ -32,8 +34,9 @@ const Contact = ({ data }) => {
         setSubject("");
         setEmail("");
         setMessage("");
-        alert("Message Sent! Thank you.");
+        toast("Message Sent! Thank you.😇");
       })
+
       // Handle errors here however you like, or use a React error boundary
       .catch((err) =>
         console.error(
@@ -45,6 +48,7 @@ const Contact = ({ data }) => {
 
   return (
     <section id="contact">
+      <ToastContainer />
       <div className="row section-head">
         <div className="two columns header-col">
           <h1>
