@@ -1,9 +1,7 @@
 import React, { Component } from "react";
-import { Splide, SplideSlide } from "@splidejs/react-splide";
-import "@splidejs/splide/dist/css/themes/splide-default.min.css";
-
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from "react-responsive-carousel";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 class Testimonials extends Component {
   render() {
@@ -12,14 +10,12 @@ class Testimonials extends Component {
         testimonials
       ) {
         return (
-          //  <SplideSlide>
           <blockquote>
             <p>{testimonials.text}</p>
             <cite>
               <a href={testimonials.website}>{testimonials.user}</a>
             </cite>
           </blockquote>
-          //  </SplideSlide>
         );
       });
     }
@@ -35,16 +31,9 @@ class Testimonials extends Component {
             </div>
 
             <div className="ten columns flex-container">
-              {/* <Splide
-                options={{
-                  type: "loop",
-                  autoplay: true,
-                  gap: "1rem",
-                }}
-              >
+              <Slider autoplay={true} autoplaySpeed={2000} slidesToShow={0.998}>
                 {testimonials}
-              </Splide> */}
-              <Carousel autoPlay>{testimonials}</Carousel>
+              </Slider>
             </div>
           </div>
         </div>

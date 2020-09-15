@@ -817,6 +817,12 @@ call-to-action .button {
   text-shadow: 0px 1px 5px rgba(255, 255, 255, 0.541);
 }
 
+#testimonials .slick-dots {
+  background-color: none;
+  height: 50px;
+  width: 50px;
+}
+
 /* Flex Slider
 /* ------------------------------------------------------------------ */
 
