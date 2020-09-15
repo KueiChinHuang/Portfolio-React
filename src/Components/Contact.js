@@ -9,11 +9,30 @@ const Contact = ({ data }) => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  // console.log(data)
+  const handleSubmit = (event) => {
+    const templateId = "template_id";
 
-  const handleClick = (e) => {
-    e.preventDefault();
-    window.open(`mailto:${email}?subject=${subject}&body=${name}: ${message}`);
+    this.sendFeedback(templateId, {
+      subject,
+      message_html: message,
+      from_name: name,
+      reply_to: email,
+    });
+  };
+
+  const sendFeedback = (templateId, variables) => {
+    window.emailjs
+      .send("gmail", templateId, variables)
+      .then((res) => {
+        console.log("Email successfully sent!");
+      })
+      // Handle errors here however you like, or use a React error boundary
+      .catch((err) =>
+        console.error(
+          "Oh well, you failed. Here some thoughts on the error that occured:",
+          err
+        )
+      );
   };
 
   return (
