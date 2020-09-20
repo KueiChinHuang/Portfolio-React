@@ -1,10 +1,10 @@
 {
   "main": {
     "name": "Kuei-Chin Huang",
-    "occupation": "Full Stack Developer",
-    "description": "Passionate for web programming. Highly-motivated and self-driven individual. Professional with multiple front-end and back-end technologies.",
+    "occupation": "Full-Stack Developer",
+    "description": "Passionate for web programming. Highly-motivated and self-driven individual. Expert with multiple front-end and back-end technologies.",
     "image": "rsz_i2-min.jpg",
-    "bio": "I love rock-climbing, and I love programming. They are similar in multiple ways. No matter how hard it is, challenges are always so inspired to try. The goals might not be easy when you havne't trained to do that. But as you learn it step by step and practice everyday, you'll definitely get your goal someday. There are many solutions for the problems. But we manage to solve it using the most elegant method. People around are supportive and sometimes they can give you the beta to solve some problems, but you need to eventually accomplish it by yourself.",
+    "bio": "I love programming even though it's not always easy. Challenges are inspiring so that I would want to give them a try. Some goals might not be easy at the first, but I know I'll eventually get my goal if I practice every day. I enjoy this process of becoming better at what I love.",
     "contactmessage": "Get in touch with me to receive further details.",
     "email": "kuei-chin.huang@mygeorgian.ca",
     "phone": "+1 (249) 877-1208",
@@ -30,7 +30,6 @@
     ]
   },
   "resume": {
-    "skillmessage": "",
     "education": [
       {
         "school": "Georgian College",
@@ -65,10 +64,15 @@
         "description": "Helped people to learn HTML, CSS, JavaScript, and SQL."
       }
     ],
+    "skillmessage": "Below I list the skills that are mainly related to web programming. I'm also familiar with Java, Python, SQL, Swift, and Linux.",
     "skills": [
       {
         "name": "ReactJs",
         "level": "75%"
+      },
+      {
+        "name": "NodeJs",
+        "level": "70%"
       },
       {
         "name": "HTML5",
@@ -76,7 +80,7 @@
       },
       {
         "name": "CSS",
-        "level": "80%"
+        "level": "75%"
       },
       {
         "name": "MongoDB",
@@ -84,7 +88,7 @@
       },
       {
         "name": "Git",
-        "level": "85%"
+        "level": "90%"
       }
     ]
   },
@@ -93,13 +97,13 @@
       {
         "title": "MERN Climbing Route Review",
         "category": "An review app built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-        "image": "rsz_route-review-min.PNG",
+        "image": "route-review-min.PNG",
         "url": "https://climbing-routes-review.herokuapp.com/"
       },
       {
         "title": "Rock Climbing Gym Online Store",
         "category": "E-Commerce website built with ASP.NET CORE",
-        "image": "rsz_climbing-store-min.PNG",
+        "image": "climbing-store-min.PNG",
         "url": "https://github.com/KueiChinHuang/Rock-Climbing-Gym-Online-Shop"
       }
     ]
