@@ -97,14 +97,20 @@
       {
         "title": "MERN Climbing Route Review",
         "category": "An review app built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-        "image": "route-review-min.PNG",
+        "image": "rsz-route-review-min.PNG",
         "url": "https://climbing-routes-review.herokuapp.com/"
       },
       {
         "title": "Rock Climbing Gym Online Store",
         "category": "E-Commerce website built with ASP.NET CORE",
-        "image": "climbing-store-min.PNG",
+        "image": "rsz-climbing-store-min.PNG",
         "url": "https://github.com/KueiChinHuang/Rock-Climbing-Gym-Online-Shop"
+      },
+      {
+        "title": "Club Member Catelog",
+        "category": "A management wibsite for club member and event built with PHP",
+        "image": "rsz-climbing-club-min.PNG",
+        "url": "https://f572ab8e74bc.ngrok.io/"
       }
     ]
   },
