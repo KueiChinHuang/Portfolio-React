@@ -110,7 +110,7 @@
         "title": "Club Member Catelog",
         "category": "A management wibsite for club member and event built with PHP",
         "image": "rsz-climbing-club-min.PNG",
-        "url": "http://fe20b09932c6.ngrok.io "
+        "url": "https://php-club-mngt.azurewebsites.net/register.php"
       }
     ]
   },
