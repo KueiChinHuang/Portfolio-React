@@ -64,31 +64,55 @@
         "description": "Helped people to learn HTML, CSS, JavaScript, and SQL."
       }
     ],
-    "skillmessage": "Below I list the skills that are mainly related to web programming. I'm also familiar with Java, Python, SQL, Swift, and Linux. You're welcome to check out my works in the next session to justify my skillset here. ",
+    "skillmessage": "Below I list the skills that are mainly related to web programming. I'm also familiar with Java, Python, SQL, Swift, and Linux.",
     "skills": [
       {
         "name": "ReactJs",
-        "level": "75%"
+        "level": "75%",
+        "projects": {
+          "title": "MERN Climbing Route Review",
+          "url": "https://climbing-routes-review.herokuapp.com/"
+        }
       },
       {
         "name": "NodeJs",
-        "level": "70%"
+        "level": "70%",
+        "projects": {
+          "title": "MERN Climbing Route Review",
+          "url": "https://climbing-routes-review.herokuapp.com/"
+        }
       },
       {
         "name": "HTML5",
-        "level": "90%"
+        "level": "90%",
+        "projects": {
+          "title": "MERN Climbing Route Review",
+          "url": "https://climbing-routes-review.herokuapp.com/"
+        }
       },
       {
         "name": "CSS",
-        "level": "75%"
+        "level": "75%",
+        "projects": {
+          "title": "MERN Climbing Route Review",
+          "url": "https://climbing-routes-review.herokuapp.com/"
+        }
       },
       {
         "name": "MongoDB",
-        "level": "70%"
+        "level": "70%",
+        "projects": {
+          "title": "MERN Climbing Route Review",
+          "url": "https://climbing-routes-review.herokuapp.com/"
+        }
       },
       {
         "name": "Git",
-        "level": "90%"
+        "level": "90%",
+        "projects": {
+          "title": "GitHub",
+          "url": "https://github.com/KueiChinHuang"
+        }
       }
     ]
   },
