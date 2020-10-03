@@ -71,7 +71,7 @@
         "level": "75%",
         "projects": {
           "title": "MERN Climbing Route Review",
-          "url": "https://climbing-routes-review.herokuapp.com/"
+          "url": "http://ec2-18-205-247-227.compute-1.amazonaws.com/"
         }
       },
       {
@@ -79,7 +79,7 @@
         "level": "70%",
         "projects": {
           "title": "MERN Climbing Route Review",
-          "url": "https://climbing-routes-review.herokuapp.com/"
+          "url": "http://ec2-18-205-247-227.compute-1.amazonaws.com/"
         }
       },
       {
@@ -87,7 +87,7 @@
         "level": "90%",
         "projects": {
           "title": "MERN Climbing Route Review",
-          "url": "https://climbing-routes-review.herokuapp.com/"
+          "url": "http://ec2-18-205-247-227.compute-1.amazonaws.com/"
         }
       },
       {
@@ -95,7 +95,7 @@
         "level": "75%",
         "projects": {
           "title": "MERN Climbing Route Review",
-          "url": "https://climbing-routes-review.herokuapp.com/"
+          "url": "http://ec2-18-205-247-227.compute-1.amazonaws.com/"
         }
       },
       {
@@ -103,7 +103,7 @@
         "level": "70%",
         "projects": {
           "title": "MERN Climbing Route Review",
-          "url": "https://climbing-routes-review.herokuapp.com/"
+          "url": "http://ec2-18-205-247-227.compute-1.amazonaws.com/"
         }
       },
       {
@@ -122,7 +122,7 @@
         "title": "MERN Climbing Route Review",
         "category": "An review app built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
         "image": "rsz-route-review-min.PNG",
-        "url": "https://climbing-routes-review.herokuapp.com/"
+        "url": "http://ec2-18-205-247-227.compute-1.amazonaws.com/"
       },
       {
         "title": "Rock Climbing Gym Online Store",
