@@ -56,8 +56,8 @@ const Contact = ({ data }) => {
           </h1>
         </div>
 
-        <div className="ten columns">
-          <p className="lead">{data?.message}</p>
+        <div className="ten columns main-col">
+          <p className="lead">{data?.contactmessage}</p>
         </div>
       </div>
 
@@ -140,7 +140,7 @@ const Contact = ({ data }) => {
           </div>
         </div>
 
-        <aside className="four columns footer-widgets">
+        {/* <aside className="four columns footer-widgets">
           <div className="widget widget_contact">
             <h4>Address and Phone</h4>
             <p className="address">
@@ -154,7 +154,7 @@ const Contact = ({ data }) => {
           </div>
 
           <div className="widget widget_tweets"></div>
-        </aside>
+        </aside> */}
       </div>
     </section>
   );
