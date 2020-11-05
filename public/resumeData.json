@@ -128,28 +128,28 @@
       {
         "title": "IKEA Clone",
         "description": "An e-commerce application.",
-        "skill":"ReactJS, NodeJS, Firebase, and Cloud Functions.",
+        "skill": "ReactJS, NodeJS, Firebase, and Cloud Functions.",
         "image": "IKEA-Clone.PNG",
         "url": "https://ikea-clone-5327a.web.app/"
       },
       {
         "title": "MERN Climbing Route Review",
         "description": "User can comment on climbing routes in the gym. ",
-        "skill":"MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
+        "skill": "MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
         "image": "rsz-route-review-min.PNG",
         "url": "http://ec2-18-205-247-227.compute-1.amazonaws.com/"
       },
       {
         "title": "Rock Climbing Gym Online Store",
         "description": "An E-Commerce website.",
-        "skill":"ASP.NET",
+        "skill": "ASP.NET",
         "image": "rsz-climbing-store-min.PNG",
         "url": "https://aspnet-ecommerce-app.azurewebsites.net/"
       },
       {
         "title": "Club Member Catelog",
         "description": "A management website for club member and event.",
-        "skill":"PHP",
+        "skill": "PHP",
         "image": "rsz-climbing-club-min.PNG",
         "url": "https://php-club-mngt.azurewebsites.net/register.php"
       }
