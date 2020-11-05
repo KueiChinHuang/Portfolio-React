@@ -119,26 +119,37 @@
   "portfolio": {
     "projects": [
       {
+        "title": "Rick and Morty Character Tracker",
+        "description": "User can list, filter, and save as favorites characters. ",
+        "skill": "NextJS.",
+        "image": "rick-and-morty-character-tracker.PNG",
+        "url": "https://rick-and-morty-characters-tracker.vercel.app/"
+      },
+      {
         "title": "IKEA Clone",
-        "category": "A fake IKEA e-commerce application (ReactJS, NodeJS, Firebase, Clout Functions)",
+        "description": "An e-commerce application.",
+        "skill":"ReactJS, NodeJS, Firebase, and Cloud Functions.",
         "image": "IKEA-Clone.PNG",
         "url": "https://ikea-clone-5327a.web.app/"
       },
       {
         "title": "MERN Climbing Route Review",
-        "category": "An review app built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
+        "description": "User can comment on climbing routes in the gym. ",
+        "skill":"MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
         "image": "rsz-route-review-min.PNG",
         "url": "http://ec2-18-205-247-227.compute-1.amazonaws.com/"
       },
       {
         "title": "Rock Climbing Gym Online Store",
-        "category": "E-Commerce website built with ASP.NET CORE",
+        "description": "An E-Commerce website.",
+        "skill":"ASP.NET",
         "image": "rsz-climbing-store-min.PNG",
         "url": "https://aspnet-ecommerce-app.azurewebsites.net/"
       },
       {
         "title": "Club Member Catelog",
-        "category": "A management wibsite for club member and event built with PHP",
+        "description": "A management website for club member and event.",
+        "skill":"PHP",
         "image": "rsz-climbing-club-min.PNG",
         "url": "https://php-club-mngt.azurewebsites.net/register.php"
       }

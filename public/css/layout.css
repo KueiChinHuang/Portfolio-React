@@ -555,13 +555,18 @@ ul#nav li a:hover {
   padding: 18px;
 }
 .portfolio-item .portfolio-item-meta h5 {
-  font: 14px/21px "opensans-bold", sans-serif;
+  font: 22px/30px "opensans-bold", sans-serif;
   color: #fff;
 }
 .portfolio-item .portfolio-item-meta p {
-  font: 12px/18px "opensans-light", sans-serif;
-  color: #c6c7c7;
-  margin-bottom: 0;
+  font: 18px/22px "opensans-light", sans-serif;
+  color: #d8d8d8;
+  /* margin-bottom: 0; */
+  margin: 10px 0;
+}
+.portfolio-item .portfolio-item-meta span {
+  color: #02d685;
+  font-weight: bold;
 }
 
 /* on hover */
