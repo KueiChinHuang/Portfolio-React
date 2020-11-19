@@ -82,7 +82,7 @@
       },
       {
         "name": "HTML5",
-        "level": "90%",
+        "level": "85%",
         "projects": {
           "title": "MERN Climbing Route Review",
           "url": "http://ec2-18-205-247-227.compute-1.amazonaws.com/"
@@ -106,7 +106,7 @@
       },
       {
         "name": "Git",
-        "level": "90%",
+        "level": "85%",
         "projects": {
           "title": "GitHub",
           "url": "https://github.com/KueiChinHuang"
@@ -116,6 +116,13 @@
   },
   "portfolio": {
     "projects": [
+      {
+        "title": "Tic Tac Toe - Play online!",
+        "description": "User can create room to play, search rooms, and delete room. ",
+        "skill": "Redux and Firebase.",
+        "image": "tictactoe.PNG",
+        "url": "https://tictactoe-redux-43a46.web.app/"
+      },
       {
         "title": "Rick and Morty Character Tracker",
         "description": "User can list, filter, and save as favorites characters. ",
