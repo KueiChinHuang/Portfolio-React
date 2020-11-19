@@ -118,7 +118,7 @@
     "projects": [
       {
         "title": "Tic Tac Toe - Play online!",
-        "description": "User can create room to play, search rooms, and delete room. ",
+        "description": "User can login to create a room, search a room, and delete a room. ",
         "skill": "Redux and Firebase.",
         "image": "tictactoe.PNG",
         "url": "https://tictactoe-redux-43a46.web.app/"
