@@ -24,6 +24,11 @@
         "name": "github",
         "url": "https://github.com/KueiChinHuang",
         "className": "fa fa-github"
+      },
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/KC78215273",
+        "className": "fa fa-twitter"
       }
     ]
   },
@@ -150,13 +155,6 @@
         "skill": "ASP.NET",
         "image": "rsz-climbing-store-min.PNG",
         "url": "https://aspnet-ecommerce-app.azurewebsites.net/"
-      },
-      {
-        "title": "Club Member Catelog",
-        "description": "A management website for club member and event.",
-        "skill": "PHP",
-        "image": "rsz-climbing-club-min.PNG",
-        "url": "https://php-club-mngt.azurewebsites.net/register.php"
       }
     ]
   },
