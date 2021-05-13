@@ -4,8 +4,8 @@
     "occupation": "Full-Stack Developer",
     "description": "Passionate for web programming. Highly-motivated and self-driven individual. Expert with multiple front-end and back-end technologies.",
     "image": "rsz_i2-min.jpg",
-    "bio": "Computer programming is very fun and I love it a lot. As a developer, we can create whatever applications that we want and make a huge impact on people and society. We would never get bored because all the languages/tools/frameworks are growing and evolving all the time. It's great excitement that there is always something smarter or more helpful than yesterday. ",
-    "bio2": "Challenges are also fascinating and inspiring. It's another reason why I love programming. I enjoy the process of becoming better at my work. When I work hard and educate myself every day, I know I'll eventually attain my goals.",
+    "bio": "Computer programming is very fun and I love it a lot. As a developer, we can potentially create whatever applications that we want and make an impact on society. We would never get bored because technology is evolving all the time. It's great excitement that there is always something new to learn every day.",
+    "bio2": "Challenges are also fascinating and inspiring. It's another reason why I love programming. I enjoy the process of becoming better at my work. Whenever I make any progress, even it's small, I get huge satisfaction out of it.",
     "bio3": "I am confident all the skills I learned can not only benefit myself but also help other people to reach their goals. I'm looking for any opportunities that allow me to make a positive impact on people and contribute to this society with all the skills that I have.",
     "address": {
       "street": "",
@@ -148,14 +148,7 @@
         "description": "User can comment on climbing routes in the gym. ",
         "skill": "MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
         "image": "rsz-route-review-min.PNG",
-        "url": "http://ec2-18-205-247-227.compute-1.amazonaws.com/"
-      },
-      {
-        "title": "Rock Climbing Gym Online Store",
-        "description": "An E-Commerce website.",
-        "skill": "ASP.NET",
-        "image": "rsz-climbing-store-min.PNG",
-        "url": "https://aspnet-ecommerce-app.azurewebsites.net/"
+        "url": "https://climbing-routes-review.herokuapp.com/"
       }
     ]
   },
